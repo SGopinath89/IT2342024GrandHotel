@@ -1,5 +1,6 @@
  const express=require('express')
- const addFood=require('../controllers/foodcontroller.js')
+ const {addFood,Foodlist}=require('../controllers/foodcontroller.js')
+// const Foodlist=require('../controllers/foodcontroller.js')
  const multer=require('multer')
 
  const foodrouter=express.Router();
@@ -18,6 +19,7 @@
 
 foodrouter.post("/add",upload.single("image"),addFood)
 
+foodrouter.get("/list",Foodlist)
 
 
 

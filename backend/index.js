@@ -15,7 +15,7 @@ app.use(cors())
 
 //api endpoint
 app.use("/api/food",foodrouter)
-app.use("images",express.static('upload'))
+app.use("/images",express.static('upload'))
 
 app.listen(port,()=>{
     console.log("The api is running on port",port)
