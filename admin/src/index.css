@@ -2,12 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+ 
 
 }
 
 body{
-  min-height: 100vh;
-  background-color: aliceblue;
+  min-height: auto;
+ 
+  background-color: #EDF599;
 }
 
 a{
@@ -23,4 +25,10 @@ hr{
 
 .app-content{
   display: flex;
+}
+ 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
