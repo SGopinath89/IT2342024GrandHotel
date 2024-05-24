@@ -32,3 +32,116 @@ hr{
   flex-direction: column;
   gap: 10px;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDF599;
+  padding: 20px;
+}
+
+.home {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.group-234 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.group-054 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rectangle-4 {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.it-sapleasure-to-meet-yo {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.grand-hotel {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.frame-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.frame-6:hover {
+  background-color: #555;
+}
+
+.group-152 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.your-favorite-food-deli {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  font-weight: bold;
+}
