@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 
 import { Route, Routes } from 'react-router-dom';
-import Home from '../src/pages/Home/Home';
+import Home from './pages/Home/Home';
 
-import Cart from '../src/pages/Cart/Cart';
+import Cart from './pages/cart/cart';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 const App = () => {
   const [showLogin,setShowLogin]=useState(false)
